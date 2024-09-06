@@ -1,0 +1,71 @@
+   .tax-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    background: url('../../public/banner.jpg') no-repeat center center;
+    background-size: cover;
+    margin:60px;
+    border-radius: 20px;
+    padding:20px
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; 
+    max-width: 1200px;
+  }
+  
+  .tax-offer {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .tax-offer h1 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .form-container h3 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, select, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
